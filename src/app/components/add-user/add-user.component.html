@@ -1,0 +1,12 @@
+<div class="form-group">
+  <label for="first Name">first Name</label>
+  <input type="text" [(ngModel)]="user.firstName" name="firstName" id="firstName" class="form-control" placeholder="entre first name ..." ><br> 
+  <label for="last Name">last Name</label>
+  <input  [(ngModel)]="user.lastName" type="text" name="lastName" id="lastName" class="form-control" placeholder="entre last name ..." ><br>
+  <label for="age">age </label> 
+  <input [(ngModel)]="user.age" type="number" name="age" id="age" class="form-control" placeholder="entre age ..." ><br>
+  <label for="idUser">id</label>
+  <input [(ngModel)]="user.id" type="text" name="idUser" id="idUser" class="form-control" placeholder="entre idUser ..." ><br>
+
+  <button class="btn btn-outline form-control btn-success" (click)="addUser()">add new user</button>
+</div>
